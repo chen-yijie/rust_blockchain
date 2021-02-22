@@ -1,0 +1,18 @@
+[package]
+name = "rust_blockchain"
+version = "0.1.0"
+authors = ["程勋德 <chengxd@300624.cn>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix-web = "3.3.2"
+chrono = { version = "0.4.19", features = ["serde"] }
+serde = "1.0.123"
+uuid = { version = "0.8", features = ["v4"] }
+actix-rt = "1.0.0"
+crypto-hash = "0.3.4"
+serde_json = "1.0"
+urlparse = "0.7.3"
+reqwest = "=0.9.17"
